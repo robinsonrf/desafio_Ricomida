@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    /*font-family: 'Lobster', cursive;
+    si pones <div class="carousel-indicators"> debajo del <div class="carousel-inner"> no es necesario poner css
+y en el css prueba con .carousel-indicators{
+    position: inherit;
+}
+
+    */
+}
+
+.navbar-brand, footer p{
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+
+}
+
+#navbarNav li a{
+ color: #fff !important; 
+ 
+}
+
+h2, h4, h6{
+    font-weight: 700;
+}
+
+.carousel-indicators {
+    position: inherit;
+}
+
+.carousel-indicators [data-bs-target]{
+    margin-top: 10px;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+    height: 10px;
+    width: 10px;
+}
+
+.ricomida{
+    font-family: 'Lobster', cursive;   
+}
+
+.marco-btn{
+    padding: 0 80px !important;
+
+}
+
+.gris{
+    color: #373A3C !important;
+
+}
+
+@media (max-width: 768.98px) { 
+    .header_boton {
+        text-align: center !important;
+    }
+    .texto-1{
+        width: 80% !important;
+        margin: auto;
+    }
+    .botones{
+        width: 45% !important;
+        margin: auto;
+    }
+
+    .img-princ{
+        width: 80% !important;
+        margin: auto;
+    }
+    .navbar-brand{
+       font-size: 3.5rem !important;
+    }
+}
